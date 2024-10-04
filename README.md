@@ -1,4 +1,4 @@
-# Expressor
+# Expresso
 
 A CLI tool for generating TypeScript-based Express applications focuses on API development. Additionally include file generating commands for `Controller` class, `Validation Schema`, and `Repository` class.
 
@@ -6,10 +6,10 @@ A CLI tool for generating TypeScript-based Express applications focuses on API d
 
 ```bash
 # Global Install
-npm install -g expressor
+npm install -g expresso
 
 # Or
-npx expressor
+npx expresso
 ```
 
 ## How to use
@@ -17,13 +17,13 @@ npx expressor
 ### Create New App
 
 ```bash
-npx expressor new my-express-app
+npx expresso new my-express-app
 ```
 
 ### Create Controller Class
 
 ```bash
-  npx expressor make:controller user
+  npx expresso make:controller user
 ```
 
 `UserController` class created in `./src/app/controllers/user.controller.ts`
@@ -31,7 +31,7 @@ npx expressor new my-express-app
 ### Create Repository Class
 
 ```bash
-  npx expressor make:repository user
+  npx expresso make:repository user
 ```
 
 `UserRepository` class created in `./src/app/controllers/user.repository.ts`
@@ -39,7 +39,7 @@ npx expressor new my-express-app
 ### Create Validation Schema
 
 ```bash
-  npx expressor make:schema user
+  npx expresso make:schema user
 ```
 
 The file user.schema.ts has been created in the `./src/app/validateSchema` directory.

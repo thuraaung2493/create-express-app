@@ -1,6 +1,6 @@
 {
-  "name": "expressor",
-  "version": "1.0.0",
+  "name": "expresso",
+  "version": "0.0.1",
   "main": "index.mjs",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "expressor": "./index.mjs"
   },
   "keywords": [
-    "expressor",
+    "expresso",
     "express",
     "express typescript",
     "express cli",
