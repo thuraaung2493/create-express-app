@@ -1,5 +1,5 @@
 {
-  "name": "expresso",
+  "name": "ts-expressor",
   "version": "0.0.1",
   "main": "index.mjs",
   "type": "module",
@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "expressor": "./index.mjs"
+    "ts-expressor": "./index.mjs"
   },
   "keywords": [
-    "expresso",
+    "ts-expressor",
     "express",
     "express typescript",
     "express cli",
