@@ -1,0 +1,11 @@
+import AutoBind from '@decorators/autoBind.js';
+import { type Request, type Response } from 'express';
+
+@AutoBind
+class {{name}}Controller {
+  async name(req: Request, res: Response) {
+    //
+  }
+}
+
+export default new {{name}}Controller();
